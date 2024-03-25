@@ -1,4 +1,4 @@
-module github.com/CosmWasm/wasmd
+module github.com/andromedaprotocol/wasmd
 
 go 1.20
 
@@ -38,6 +38,7 @@ require (
 	cosmossdk.io/errors v1.0.0
 	cosmossdk.io/math v1.1.2
 	cosmossdk.io/tools/rosetta v0.2.1
+	github.com/CosmWasm/wasmd v0.41.0
 	github.com/cometbft/cometbft v0.37.2
 	github.com/cometbft/cometbft-db v0.8.0
 	github.com/spf13/viper v1.16.0
