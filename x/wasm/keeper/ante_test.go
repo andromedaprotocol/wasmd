@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CosmWasm/wasmd/x/wasm/keeper"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper"
+	"github.com/andromedaprotocol/wasmd/x/wasm/types"
 )
 
 func TestCountTxDecorator(t *testing.T) {

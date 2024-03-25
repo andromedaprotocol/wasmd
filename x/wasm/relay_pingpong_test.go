@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	app2 "github.com/CosmWasm/wasmd/app"
+	app2 "github.com/andromedaprotocol/wasmd/app"
 
 	ibctransfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
 	ibctesting "github.com/cosmos/ibc-go/v7/testing"
@@ -18,10 +18,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	wasmibctesting "github.com/CosmWasm/wasmd/x/wasm/ibctesting"
-	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/wasmtesting"
-	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
+	wasmibctesting "github.com/andromedaprotocol/wasmd/x/wasm/ibctesting"
+	wasmkeeper "github.com/andromedaprotocol/wasmd/x/wasm/keeper"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper/wasmtesting"
+	wasmtypes "github.com/andromedaprotocol/wasmd/x/wasm/types"
 )
 
 const (

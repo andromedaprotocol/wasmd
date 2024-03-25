@@ -13,7 +13,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/version"
 
-	"github.com/CosmWasm/wasmd/app"
+	"github.com/andromedaprotocol/wasmd/app"
 
 	tmconfig "github.com/cometbft/cometbft/config"
 	tmrand "github.com/cometbft/cometbft/libs/rand"

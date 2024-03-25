@@ -9,9 +9,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CosmWasm/wasmd/x/wasm/ibctesting"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/testdata"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/andromedaprotocol/wasmd/x/wasm/ibctesting"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper/testdata"
+	"github.com/andromedaprotocol/wasmd/x/wasm/types"
 )
 
 // InstantiateReflectContract store and instantiate a reflect contract instance

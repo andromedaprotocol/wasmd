@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/testdata"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper/testdata"
 
 	icacontrollertypes "github.com/cosmos/ibc-go/v7/modules/apps/27-interchain-accounts/controller/types"
 	icahosttypes "github.com/cosmos/ibc-go/v7/modules/apps/27-interchain-accounts/host/types"
@@ -79,9 +79,9 @@ import (
 	ibckeeper "github.com/cosmos/ibc-go/v7/modules/core/keeper"
 	"github.com/stretchr/testify/require"
 
-	wasmappparams "github.com/CosmWasm/wasmd/app/params"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/wasmtesting"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	wasmappparams "github.com/andromedaprotocol/wasmd/app/params"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper/wasmtesting"
+	"github.com/andromedaprotocol/wasmd/x/wasm/types"
 )
 
 var moduleBasics = module.NewBasicManager(

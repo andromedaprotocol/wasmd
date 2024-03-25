@@ -17,10 +17,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/tx"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/CosmWasm/wasmd/app/params"
-	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/testdata"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/andromedaprotocol/wasmd/app/params"
+	wasmkeeper "github.com/andromedaprotocol/wasmd/x/wasm/keeper"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper/testdata"
+	"github.com/andromedaprotocol/wasmd/x/wasm/types"
 )
 
 // Simulation operation weights constants

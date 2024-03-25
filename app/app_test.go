@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
-	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
+	wasmkeeper "github.com/andromedaprotocol/wasmd/x/wasm/keeper"
+	wasmtypes "github.com/andromedaprotocol/wasmd/x/wasm/types"
 )
 
 var emptyWasmOpts []wasmkeeper.Option

@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/CosmWasm/wasmd/x/wasm"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/wasmtesting"
-	v3 "github.com/CosmWasm/wasmd/x/wasm/migrations/v3"
+	"github.com/andromedaprotocol/wasmd/x/wasm"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper/wasmtesting"
+	v3 "github.com/andromedaprotocol/wasmd/x/wasm/migrations/v3"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/address"
@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/andromedaprotocol/wasmd/x/wasm/types"
 )
 
 func TestMigrate3To4(t *testing.T) {

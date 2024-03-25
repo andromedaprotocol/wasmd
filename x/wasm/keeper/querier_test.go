@@ -22,8 +22,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/wasmtesting"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper/wasmtesting"
+	"github.com/andromedaprotocol/wasmd/x/wasm/types"
 )
 
 func TestQueryAllContractState(t *testing.T) {

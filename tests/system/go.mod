@@ -1,4 +1,4 @@
-module github.com/CosmWasm/wasmd/tests/system
+module github.com/andromedaprotocol/wasmd/tests/system
 
 go 1.19
 

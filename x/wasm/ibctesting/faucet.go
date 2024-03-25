@@ -7,7 +7,7 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CosmWasm/wasmd/app"
+	"github.com/andromedaprotocol/wasmd/app"
 )
 
 // Fund an address with the given amount in default denom

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
+	wasmtypes "github.com/andromedaprotocol/wasmd/x/wasm/types"
 
 	distrtypes "github.com/andromedaprotocol/andromedad/x/distribution/types"
 	dbm "github.com/cometbft/cometbft-db"

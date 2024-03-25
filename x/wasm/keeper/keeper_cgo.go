@@ -10,7 +10,7 @@ import (
 	wasmvm "github.com/CosmWasm/wasmvm"
 	"github.com/cosmos/cosmos-sdk/codec"
 
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/andromedaprotocol/wasmd/x/wasm/types"
 )
 
 // NewKeeper creates a new contract Keeper instance

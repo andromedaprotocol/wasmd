@@ -23,11 +23,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CosmWasm/wasmd/app/params"
-	"github.com/CosmWasm/wasmd/x/wasm/exported"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/testdata"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/andromedaprotocol/wasmd/app/params"
+	"github.com/andromedaprotocol/wasmd/x/wasm/exported"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper/testdata"
+	"github.com/andromedaprotocol/wasmd/x/wasm/types"
 )
 
 type mockSubspace struct {

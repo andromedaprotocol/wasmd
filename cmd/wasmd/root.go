@@ -32,12 +32,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/CosmWasm/wasmd/app"
-	"github.com/CosmWasm/wasmd/app/params"
-	"github.com/CosmWasm/wasmd/x/wasm"
-	wasmcli "github.com/CosmWasm/wasmd/x/wasm/client/cli"
-	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
-	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/andromedaprotocol/wasmd/app"
+	"github.com/andromedaprotocol/wasmd/app/params"
+	"github.com/andromedaprotocol/wasmd/x/wasm"
+	wasmcli "github.com/andromedaprotocol/wasmd/x/wasm/client/cli"
+	wasmkeeper "github.com/andromedaprotocol/wasmd/x/wasm/keeper"
+	wasmtypes "github.com/andromedaprotocol/wasmd/x/wasm/types"
 )
 
 // NewRootCmd creates a new root command for wasmd. It is called once in the

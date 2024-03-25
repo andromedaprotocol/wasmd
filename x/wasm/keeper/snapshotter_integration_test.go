@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/andromedaprotocol/wasmd/x/wasm/types"
 
 	"github.com/stretchr/testify/assert"
 
@@ -20,8 +20,8 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CosmWasm/wasmd/app"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper"
+	"github.com/andromedaprotocol/wasmd/app"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper"
 )
 
 func TestSnapshotter(t *testing.T) {

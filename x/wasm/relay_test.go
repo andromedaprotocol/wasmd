@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CosmWasm/wasmd/app"
+	"github.com/andromedaprotocol/wasmd/app"
 
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/math"
@@ -20,10 +20,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	wasmibctesting "github.com/CosmWasm/wasmd/x/wasm/ibctesting"
-	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/wasmtesting"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	wasmibctesting "github.com/andromedaprotocol/wasmd/x/wasm/ibctesting"
+	wasmkeeper "github.com/andromedaprotocol/wasmd/x/wasm/keeper"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper/wasmtesting"
+	"github.com/andromedaprotocol/wasmd/x/wasm/types"
 )
 
 func TestFromIBCTransferToContract(t *testing.T) {

@@ -3,11 +3,11 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	v1 "github.com/CosmWasm/wasmd/x/wasm/migrations/v1"
-	v2 "github.com/CosmWasm/wasmd/x/wasm/migrations/v2"
-	v3 "github.com/CosmWasm/wasmd/x/wasm/migrations/v3"
+	v1 "github.com/andromedaprotocol/wasmd/x/wasm/migrations/v1"
+	v2 "github.com/andromedaprotocol/wasmd/x/wasm/migrations/v2"
+	v3 "github.com/andromedaprotocol/wasmd/x/wasm/migrations/v3"
 
-	"github.com/CosmWasm/wasmd/x/wasm/exported"
+	"github.com/andromedaprotocol/wasmd/x/wasm/exported"
 )
 
 // Migrator is a struct for handling in-place store migrations.

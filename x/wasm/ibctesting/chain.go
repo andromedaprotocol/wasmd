@@ -42,8 +42,8 @@ import (
 	"github.com/cosmos/ibc-go/v7/testing/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CosmWasm/wasmd/app"
-	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
+	"github.com/andromedaprotocol/wasmd/app"
+	wasmkeeper "github.com/andromedaprotocol/wasmd/x/wasm/keeper"
 )
 
 var MaxAccounts = 10

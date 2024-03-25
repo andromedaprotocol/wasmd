@@ -12,15 +12,15 @@ import (
 	wasmvm "github.com/CosmWasm/wasmvm"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/wasmtesting"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper/wasmtesting"
 
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/testdata"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/andromedaprotocol/wasmd/x/wasm/keeper/testdata"
+	"github.com/andromedaprotocol/wasmd/x/wasm/types"
 )
 
 // test handing of submessages, very closely related to the reflect_test
