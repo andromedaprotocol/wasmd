@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	distributiontypes "github.com/andromedaprotocol/andromedad/x/distribution/types"
 	"github.com/cometbft/cometbft/libs/rand"
 	"github.com/cosmos/cosmos-sdk/types/address"
-	distributiontypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 
 	errorsmod "cosmossdk.io/errors"
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
